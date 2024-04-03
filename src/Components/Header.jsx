@@ -2,9 +2,7 @@ import React from 'react';
 import { RxCross1 } from 'react-icons/rx';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import logo from '../assets/logo.png';
-import { TbCircleLetterJ } from 'react-icons/tb';
 import { IoIosArrowDown } from 'react-icons/io';
-import { RxHamburgerMenu } from 'react-icons/rx';
 import { useState } from 'react';
 const Header = () => {
   const [smallMenu, setSmallMenu] = useState(false);
